@@ -3,8 +3,9 @@ Welcome to the Movie Recommendation System!
 This project helps users discover movies they'll love based on various criteria and intelligent recommendations.
 
 📚 About
-This system suggests movies using a curated and dynamic dataset.
-Built with a focus on simplicity, efficiency, and scalability, it provides users with tailored recommendations to enhance their movie-watching experience.
+This system suggests movies using a manually curated dataset.
+Built with a focus on simplicity and speed, it provides users with movie recommendations based on genre, search input, and ratings.
+You can also watch trailers on YouTube directly by clicking the Watch Trailer button!
 
 Depending on the version you are running, it supports:
 
@@ -14,12 +15,11 @@ Depending on the version you are running, it supports:
 
 🔹 Genre-based and rating-based filtering
 
+🔹 Watch trailers on YouTube directly by clicking "Watch Trailer"
+
 ⚙️ Technologies Used
-Backend/ML: Python
 
-Frontend (if applicable): HTML, CSS, JavaScript
-
-APIs: The Movie Database (TMDb) API
+Frontend: HTML, CSS, JavaScript
 
 Data: Curated datasets categorized by genre, ratings, release year, etc.
 
@@ -34,6 +34,4 @@ Data: Curated datasets categorized by genre, ratings, release year, etc.
 
 🔎 Search functionality
 
-🧠 Machine Learning-based recommendations (optional)
-
-🔥 Integration with TMDb for live movie updates
+🔗 Watch movie trailers directly on YouTube

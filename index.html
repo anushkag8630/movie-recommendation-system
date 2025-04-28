@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie recommendation system</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h4>MOVIE RECOMMENDATION</h4>
+        <h1>Find your perfect movie match here !</h1>
+        
+        <div class="search-bar">
+            <input list="moviesGenre" id="SearchMovies" placeholder="Search for movie/genre">
+            <button id="recommendationbtn">Show Recommendation</button>
+        </div>
+
+        <datalist id="moviesGenre">
+                <option value="Action">
+                <option value="Bollywood">   
+                <option value="Comedy"> 
+                <option value="Hollywood">       
+                <option value="Horror">
+                <option value="Romance/Rom-Com">     
+        </datalist>
+        
+        <main class="main">
+            <div id="MoviesGrid">
+                <div class="movie-item"> </div>
+                <div class="card"> <!--parent container-->
+                    <div class="card-image-container"> <!--child container-->
+                        <img src="images/the_avengers.jpg" class="card-image" alt="The Avengers">
+                    </div>
+                    <div class="movie-details">
+                        <p class="title">The Avengers</p> 
+                        <p>Genre: Action, Drama</p>
+                        <p>Duration: 2h 23m</p>
+                        <p>Release Year: 2012</p>
+                    </div>
+                    <div class="ratings"> 
+                        <span class="star">&#9733;</span>
+                        <span>8.0</span>
+                    </div> 
+                </div>
+            </div>
+        </main>
+
+    <script src="script.js"></script>
+        
+    </div>
+</body>
+</html>

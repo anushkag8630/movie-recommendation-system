@@ -11,11 +11,9 @@ Depending on the version you are running, it supports:
 
 🔹 Static dataset recommendations
 
-🔹 Dynamic movie fetching (via TMDb API)
+🔹 Watch trailers on YouTube directly by clicking "Watch Trailer"
 
 🔹 Genre-based and rating-based filtering
-
-🔹 Watch trailers on YouTube directly by clicking "Watch Trailer"
 
 ⚙️ Technologies Used
 

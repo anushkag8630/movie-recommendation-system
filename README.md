@@ -7,6 +7,8 @@ This system suggests movies using a manually curated dataset.
 Built with a focus on simplicity and speed, it provides users with movie recommendations based on genre, search input, and ratings.
 You can also watch trailers on YouTube directly by clicking the Watch Trailer button!
 
+You can check the website here : https://findyour-movie.netlify.app/
+
 Depending on the version you are running, it supports:
 
 🔹 Static dataset recommendations
